@@ -1,5 +1,5 @@
-**Data Modelling – Kimball**
-  
+Data Modelling – Kimball
+----------------------------
 Goal is to categorise data into their fact or dimensional models.
 
  **Fact (“verb”) –** Collection of info that refers to action/event/result of a business process.
@@ -58,3 +58,20 @@ If they are not, then should consider joining them into wide tables.
 
 - **Navigating ambiguity:** You need to rely on your understanding of your data and stakeholder wants to model your data in a comprehensible and useful way
 - **Utility Limited by BI Tool:** Some BI tools don’t handle joins well, which can make queries from separated fact and dimensional tables painful
+
+
+**OLTP vs OLAP**
+
+**OLTP:** ***Online Transactional Processing -> Real Time Processing of Transactions***
+
+- OLTP systems are designed to handle large volumes of transactional data involving multiple users. Rapidly update, insert or delete small amounts of data. 
+- Responsible for powering various essential tasks. Significance extends to consumer applications as well, enabling smooth user experiences.
+- OLTP systems are customer-facing and designed for use by frontline workers.
+- Backbone of many critical systems, helping ensure that real-time data requirements are met efficiently and effectively in various domains.
+
+**OLAP:** ***Online Analytical Processing  -> Complex Data Analysis***
+
+- OLAP’s tend to have multidimensional schema, well suited for complex queries that draw data from multiple datasets including OLTP sources.
+- OLAP systems are business-facing and used by data scientists/analysts and business users.
+- Versatility provides orgs with actionable insights and a competitive edge in an ever evolving business landscape.
+
