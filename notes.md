@@ -56,5 +56,5 @@ If they are not, then should consider joining them into wide tables.
 
 ***Disadvantages:***
 
-Navigating ambiguity
-Utility Limited by BI Tool
+- **Navigating ambiguity:** You need to rely on your understanding of your data and stakeholder wants to model your data in a comprehensible and useful way
+- **Utility Limited by BI Tool:** Some BI tools don’t handle joins well, which can make queries from separated fact and dimensional tables painful
