@@ -1,14 +1,12 @@
 -- CREATE DATAFRAME WITH PLAYERS CONTAINING ARRAY OF THEIR SEASON STATS AND CATEGORISING SCORING CLASS
 
-CREATE TYPE season_stats AS (
+ CREATE TYPE season_stats AS (
                          season Integer,
+                         gp REAL,
                          pts REAL,
-                         ast REAL,
                          reb REAL,
-                         weight INTEGER
+                         ast INTEGER
                        );
-
-
  CREATE TYPE scoring_class AS
      ENUM ('bad', 'average', 'good', 'star');
 
