@@ -1,4 +1,4 @@
-# Dimensional Data Modeling - Week 1
+# Dimensional Data Modeling Project
 
 ## Dataset Overview
 The `actor_films` dataset contains the following fields:
